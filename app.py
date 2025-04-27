@@ -1,8 +1,14 @@
+############################################################
+#pip install streamlit  
+#pip install google-generativeai
+############################################################
+
 import streamlit as st
 import google.generativeai as genai
 
+
 # Config API
-genai.configure(api_key="AIzaSyDCImv-he2rtE4QNK3JONzr-gaoPjGSxu8")
+genai.configure(api_key=" USE_YOUR_API")
 
 # Charger modèle
 model = genai.GenerativeModel('gemini-2.0-flash')
