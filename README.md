@@ -37,7 +37,8 @@
 git clone https://github.com/Ton-Username/ton-repo.git
 
 # Installer les dépendances
-pip install -r requirements.txt
+pip install streamlit  
+pip install google-generativeai
 
 # Lancer l'application
 streamlit run app.py
